@@ -34,13 +34,12 @@ li {
 
 .mini-header{
   height: 25px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 1% 0 2% 0;
   background-color: rgb(226, 195, 147);
   text-align: center;
   border-radius: 10px;
   width: 93%;
-  margin: 0;
+  margin: 1.5%;
 }
 
 #wrong {
@@ -48,7 +47,7 @@ li {
 }
 
 #correct {
-  background-color:rgb(191, 116, 191);
+  background-color:rgb(121, 231, 134);
 }
 
 .answer-space {
@@ -105,5 +104,5 @@ button.newdrink {
 
 .drink-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
