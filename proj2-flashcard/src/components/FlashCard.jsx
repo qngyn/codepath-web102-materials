@@ -21,6 +21,7 @@ const FlashCard = (props) => {
             <style>
                 {`
                 .card {
+                    color: black;
                     display: flex;
                     background-color: ${backgroundColor};
                     width: 500px;
@@ -41,6 +42,7 @@ const FlashCard = (props) => {
             <style>
                 {`
                 .card {
+                    color: black;
                     background-color: ${backgroundColor};
                     width: 500px;
                     height: 200px;
