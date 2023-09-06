@@ -7,6 +7,7 @@ import './App.css'
 function App() {
   const [currentImage, setCurrentImage] = useState(null);
   const [prevImages, setPrevImages] = useState([]);
+  const [quota, setQuota] = useState(null);
   const [inputs, setInputs] = useState({
     url: "",
     format: "",
@@ -37,6 +38,12 @@ function App() {
     makeQuery();
   }
 
+  const getQuota = async () => {
+    const response = await fetch("https://api.apiflash.com/v1/urltoimage/quota?access_key=" + ACCESS_KEY);
+    const result = await response.json();
+    setQuota(result);
+  }
+
   const callAPI = async (query) => {
     
     const response = await fetch(query);
@@ -47,6 +54,7 @@ function App() {
     } else {
       setCurrentImage(json.url);
       setPrevImages((images) => [...images, json.url]);
+      getQuota();
       reset();
     }
   }
@@ -74,6 +82,14 @@ function App() {
   }
   return (
     <div className="whole-page">
+      {quota ? (
+        <p className="quota">
+          {" "}
+          Remaining API calls: {quota.remaining} out of {quota.limit}
+        </p>
+      ) : (
+        <p></p>
+      )}
       <h1>Build Your Own Screenshot! 📸</h1>
       
       <APIForm

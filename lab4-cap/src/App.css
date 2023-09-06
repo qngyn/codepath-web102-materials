@@ -87,3 +87,11 @@ input {
 .gallery-screenshot {
   border-radius: 8px;
 }
+
+.quota {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 10px;
+  color: black;
+}
