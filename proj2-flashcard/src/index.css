@@ -14,14 +14,6 @@
   -webkit-text-size-adjust: 100%;
 }
 
-html {
-  box-sizing: border-box;
-  width: 100%;
-  scroll-behavior: smooth;
-  background-image:  url(assets/background.jpeg);
-  background-position: center;
-}
-
 a {
   font-weight: 500;
   color: #646cff;

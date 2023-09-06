@@ -1,0 +1,69 @@
+[
+    {
+        "question": "Plant cell walls are composed of which material?",
+        "answer": "Cellulose", 
+        "difficulty": "easy"
+    }, 
+    {
+        "question": "Which of these break down macromolecules such as nucleic acids, proteins, and polysaccharides?",
+        "answer": "Lysosome", 
+        "difficulty": "medium"
+    }, 
+    {
+        "question": "What is one kind of filament that allows certain protozoans to move about?",
+        "answer": "Cilium", 
+        "difficulty": "hard"
+
+    }, 
+    {
+        "question": "What are the sites of protein synthesis?",
+        "answer": "Ribosomes", 
+        "difficulty": "easy"
+    }, 
+    {
+        "question": "What is the thin layer that forms the outer boundary of a cell?",
+        "answer": "Membrane", 
+        "difficulty": "easy"
+    }, 
+    {
+        "question": "What is the material that surrounds a cell’s organelles?",
+        "answer": "Cytoplasm", 
+        "difficulty": "easy"
+    },
+    {
+        "question": "In cells with a clearly defined nucleus, which membrane-bound organelle is responsible for transporting, modifying, and packaging proteins and lipids into vesicles?",
+        "answer": "Golgi apparatus", 
+        "difficulty": "medium"
+    },
+    {
+        "question": "Within a cell, what is a space that is empty of cytoplasm, lined with a membrane, and filled with fluid?",
+        "answer": "Vacuole", 
+        "difficulty": "medium"
+    },
+    {
+        "question": "What are the organelles that generate large quantities of energy in the form of adenosine triphosphate (ATP)?",
+        "answer": "Mitochondira", 
+        "difficulty": "easy"
+    },
+    {
+        "question": "What organelle recycles carbon from phosphoglycolate during photorespiration in plant cells?",
+        "answer": "Peroxisome", 
+        "difficulty": "hard"
+    },
+    {
+        "question": "Chromosomes are found in _____________________ of cells",
+        "answer": "Nucleus", 
+        "difficulty": "easy"
+    },
+    {
+        "question": "The sex chromosomes of normal females are:",
+        "answer": "X and X", 
+        "difficulty": "easy"
+    },
+    {
+        "question": "What part of the cell serves as the intracellular highway?",
+        "answer": "Endoplasmic Reticulum", 
+        "difficulty": "medium"
+    }
+    
+]
