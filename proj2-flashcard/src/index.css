@@ -12,6 +12,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  
 }
 
 a {
@@ -29,7 +30,9 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: rgb(108, 152, 108);
+  background-image:url('assets/cole-keister-rydTSO7xB5A-unsplash.jpg');
+  background-size: 50%;
+  background-blend-mode: multiply;
 }
 
 h1 {

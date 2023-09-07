@@ -64,6 +64,21 @@
         "question": "What part of the cell serves as the intracellular highway?",
         "answer": "Endoplasmic Reticulum", 
         "difficulty": "medium"
+    }, 
+    {
+        "question": "What organelle recycles carbon from phosphoglycolate during photorespiration in plant cells?",
+        "answer": "Peroxisome", 
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What organelle recycles carbon from phosphoglycolate during photorespiration in plant cells?",
+        "answer": "Peroxisome", 
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which type of cell has ribosomes?",
+        "answer": "Eukaryote", 
+        "difficulty": "Easy"
     }
     
 ]
